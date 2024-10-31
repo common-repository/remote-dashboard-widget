@@ -1,0 +1,36 @@
+#dashboard-widget .dashboard-widget-container-left {
+    width: 29%;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+#dashboard-widget .dashboard-widget-container-right {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#dashboard-widget .dashboard-widget-link,
+#dashboard-widget .dashboard-widget-title {
+    text-decoration: none;
+}
+
+#dashboard-widget .dashboard-widget-link:hover {
+    text-decoration: underline;
+}
+
+#dashboard-widget .dashboard-widget-image {
+    display: inline-block;
+    max-width: 80px;
+    margin-bottom: 0.5rem;
+}
+
+#dashboard-widget .dashboard-widget-footer {
+    text-align: center;
+    font-size: 0.75rem;
+    border-top: 1px solid #ccc;
+    color: #888;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+}
